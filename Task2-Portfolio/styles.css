@@ -1,0 +1,220 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	font-family: sans-serif;
+	color: #555;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: normal;
+	text-align: left;
+}
+
+
+h1,h2,h3,
+h4,h5,h6 {
+	font-size: inherit;
+	line-height: inherit;
+	font-family: sans-serif;	
+}
+h1,h2,h3,
+h4,h5,h6,p,ul,li,a,span {
+	margin:0;
+}
+a {
+	text-decoration: none;
+	color:#555;
+	cursor: pointer;
+}
+.main-container {
+	max-width: 1920px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;	
+}
+.inside-container {
+	max-width: 940px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.sections-detail {
+	margin: 0 0 55px;
+}
+.section-title {
+	font-family: serif;
+	font-size: 28px;
+	line-height: 40px;
+	letter-spacing: 0.84px;
+	font-weight: 700;
+	color: #7b6cd5;
+	text-align: center;
+}
+.section-title-desc {
+	font-size: 15px;
+	line-height: 40px;
+	font-weight: 400;
+	letter-spacing: 0.45px;
+	color: #666;
+	text-align: center;
+}
+/*Banner*/
+.port-template .banner {
+	background-image: url(gi.gif);
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: auto;
+	color:#fff;
+	position: relative;
+}
+.port-template .banner .banner-overlay {
+	position: absolute;
+	top: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    background-color: rgba(0,0,0,.5);
+    z-index: 2;
+}
+.port-template .banner .top-bar{
+	padding:26px 15px; 
+	border-bottom: 1px solid #fff;
+}
+.port-template .banner .top-bar-left ,
+.top-bar-right {
+	padding-top: 24px;	
+	z-index: 3;
+}
+.port-template .banner .top-bar-left a {
+	color:#fff;
+	font-size: 18px;
+	letter-spacing: 0.18px;
+	font-family: sans-serif;
+	font-weight: 400;
+	vertical-align: middle
+}
+.port-template .banner .logo {
+	text-align: center;
+	z-index: 3;
+}
+.port-template .banner .top-bar-right {
+	text-align: right;
+}
+.port-template .banner .top-bar-right a {
+	font-family: sans-serif;
+	color:#fff;
+	font-size: 18px;
+	letter-spacing: 0.18px;
+	font-weight: 400;
+	vertical-align: middle
+}
+.port-template .banner .top-bar-left a:hover,
+.port-template .banner .top-bar-right a:hover{
+	color:#fe86d4;
+	text-decoration: none;
+}
+.port-template .banner .top-bar-left i,
+.top-bar-right i {
+	font-size: 16px;
+    background-color: #fff;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    text-align: center;
+    color: #3e2d40;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+.port-template .banner .banner-content {
+	padding: 126px 15px;
+}
+.port-template .banner .banner-content .content-col {
+	text-align: center;
+	z-index: 3;
+}
+.port-template .banner .banner-content .site-title {
+	font-family: sans-serif;
+	font-size: 40px;
+	line-height: 40px;
+	font-weight: 700;
+	margin-bottom: 18px;
+	padding-right: 15px;
+}
+.port-template .banner .banner-content .site-title-desc {
+	font-size: inherit;
+	line-height: 25px;
+	letter-spacing: 0.45px;
+	margin-bottom: 51px;
+	width: 97%;
+}
+.port-template .banner .banner-content a.banner-btn {
+	font-family: sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 0.6px;
+	font-weight: 700;
+	padding: 21px 32px 19px;
+	background-color: #fe86d4;
+	color:#fff;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+.port-template .banner .banner-content a.banner-btn:hover {
+	text-decoration: none;
+	color: #7b6cd5;
+}
+/* Profiles*/
+.port-template .profile-section {
+	padding: 60px 15px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+.port-template .profile-section .profile-col {
+	margin-bottom: 40px;
+}
+.port-template .profile-section .profile-img {
+	width: 182px;
+    height: 182px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 auto 12px;
+    overflow: hidden;
+    border: unset;
+} 
+.port-template .profile-section .profile-img .profile-in-img {
+	max-width: 245px;
+	border-radius: 50%;
+}
+.port-template .profile-section .profile-col a:hover {
+	text-decoration: none;
+}
+.port-template .profile-section .profile-col a:hover .profile-title {
+	text-decoration: none;
+	color: #fe86d4;
+}
+.port-template .profile-section .profile-title {
+	font-family: sans-serif;
+	font-size: 20px;
+	line-height: 40px;
+	letter-spacing: 0.8px;
+	font-weight: 600;
+	color: #444;
+}
+.port-template .profile-section .profile-desc {
+	font-family: inherit;
+	font-size: 15px;
+	line-height: 40px;
+	letter-spacing: 0.45px;
+	font-style: italic;
+	font-weight: 400;
+	color: #666;
+}
